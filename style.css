@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
+}
+.wrapper{
+    background-color: rgb(227, 252, 252);
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 5vw;
+}
+input, button{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: .5s;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: .5s;
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(121, 241, 241);
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.container{
+    padding: 1rem;
+    margin: 0 2rem;
+    border-radius: .5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
